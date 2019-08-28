@@ -1,0 +1,18 @@
+#cat {
+    width: 20%;
+    height: 20%;
+    transform: rotate(180deg);
+    float: left;
+    position: relative;
+    margin-right: 10px;
+
+}
+
+#wrapper {
+    float: left
+}
+
+#container {
+    max-width: 960px;
+    margin: auto;
+}
