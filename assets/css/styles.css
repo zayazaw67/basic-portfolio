@@ -3,15 +3,6 @@
     margin: 0;
 }
 
-h1 {
-    position: absolute;
-    left: 100px;
-    top: 0px;
-    z-index: 2;
-    background-color: aqua;
-
-}
-
 #cat {
     width: 20%;
     height: 20%;
@@ -42,24 +33,38 @@ li a:hover {
 .navbar {
     position: relative;
     z-index: 1;
-    border-bottom-style: solid;
-    border-width: 5px;
-    border-color: black
 }
-
-
 ul {
     list-style-type: none; 
-    background-color: gray;
     overflow: hidden; /* beige bar extends across after entering this code, not sure why*/
     position: sticky;
     position: relative;
+    float: right;
     /* top: 0; makes navigation bar sticky when  is applied, but image appears above navigation bar*/
-
 }
 
 body {
     background-color: pink;
+    line-height: 150%;
+    font-size: 16px;
+    
+}
+
+#heading {
+    height: 50px;
+    background-color: gray;
+    width: 100%;
+    border-bottom: 10px solid black;
+
+}
+
+h1 {
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    background-color: aqua;
+    float: left;
+    width: 20%;
 }
 
 .footer {
