@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+h1 {
+    width: 300px;
+    height: 75px;
+
+}
+
 #cat {
     width: 20%;
     height: 20%;
@@ -20,7 +26,6 @@ li {
     float: right;
 }
 
-
 li a {
     padding: 10px;
     margin: 1px;
@@ -31,21 +36,16 @@ li a:hover {
     background-color: gray;
 }
 
-
-
-
-body {
-    background-color: pink;
+.navbar {
+    position: relative;
+    z-index: 1;
 }
 
 .header {
     position: absolute;
     left: 100px;
     top: 0px;
-}
-
-.navbar {
-    position: relative;
+    z-index: 2;
 }
 
 ul {
@@ -55,8 +55,12 @@ ul {
     position: sticky;
     padding: 20px;
     position: relative;
-    /* makes navigation bar sticky when top: 0; is applied, but image appears above navigation bar*/
+    /* top: 0; makes navigation bar sticky when  is applied, but image appears above navigation bar*/
 
+}
+
+body {
+    background-color: pink;
 }
 
 .footer {
@@ -66,7 +70,4 @@ ul {
     text-align: center;
     border-top: 10px solid black;
     width: 100%;
-    /* can't figure out how to make footer to take up entire width of browser */
-
-
 }
