@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 #cat {
     width: 20%;
     height: 20%;
@@ -26,15 +31,7 @@ li a:hover {
     background-color: gray;
 }
 
-ul {
-    list-style-type: none;    
-    background-color: beige;
-    overflow: hidden; /* beige bar extends across after entering this code, not sure why*/
-    position: sticky;
-    padding: 20px;
-    /* makes navigation bar sticky when top: 0; is applied, but image appears above navigation bar*/
 
-}
 
 
 body {
@@ -42,7 +39,24 @@ body {
 }
 
 .header {
-    background-color: blue;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+}
+
+.navbar {
+    position: relative;
+}
+
+ul {
+    list-style-type: none; 
+    background-color: beige;   
+    overflow: hidden; /* beige bar extends across after entering this code, not sure why*/
+    position: sticky;
+    padding: 20px;
+    position: relative;
+    /* makes navigation bar sticky when top: 0; is applied, but image appears above navigation bar*/
+
 }
 
 .footer {
