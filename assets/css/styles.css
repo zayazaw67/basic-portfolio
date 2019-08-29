@@ -3,16 +3,56 @@
     height: 20%;
     transform: rotate(180deg);
     float: left;
-    position: relative;
     margin-right: 10px;
-
 }
 
 #wrapper {
-    float: left
-}
-
-#container {
     max-width: 960px;
     margin: auto;
+}
+
+li {
+    float: right;
+}
+
+
+li a {
+    padding: 10px;
+    margin: 1px;
+    display: block;
+}
+
+li a:hover {
+    background-color: gray;
+}
+
+ul {
+    list-style-type: none;    
+    background-color: beige;
+    overflow: hidden; /* beige bar extends across after entering this code, not sure why*/
+    position: sticky;
+    padding: 20px;
+    /* makes navigation bar sticky when top: 0; is applied, but image appears above navigation bar*/
+
+}
+
+
+body {
+    background-color: pink;
+}
+
+.header {
+    background-color: blue;
+}
+
+.footer {
+    background-color: purple;
+    padding-top: 30px;
+    margin-top: 5px;
+    text-align: center;
+    border-top: 10px solid black;
+    width: 100%;
+    /* can't figure out how to make footer to take up entire width of browser */
+
+
 }
