@@ -4,8 +4,11 @@
 }
 
 h1 {
-    width: 300px;
-    height: 75px;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    z-index: 2;
+    background-color: aqua;
 
 }
 
@@ -33,27 +36,23 @@ li a {
 }
 
 li a:hover {
-    background-color: gray;
+    background-color: #111111;
 }
 
 .navbar {
     position: relative;
     z-index: 1;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: black
 }
 
-.header {
-    position: absolute;
-    left: 100px;
-    top: 0px;
-    z-index: 2;
-}
 
 ul {
     list-style-type: none; 
-    background-color: beige;   
+    background-color: gray;
     overflow: hidden; /* beige bar extends across after entering this code, not sure why*/
     position: sticky;
-    padding: 20px;
     position: relative;
     /* top: 0; makes navigation bar sticky when  is applied, but image appears above navigation bar*/
 
