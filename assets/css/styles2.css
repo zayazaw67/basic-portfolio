@@ -1,0 +1,25 @@
+
+.imageoverlay {
+    position: relative;
+    text-align: center;
+    float: left; /* Removing float makes the images within the white background, but won't be aligned */
+}
+
+.clearfix {
+    overflow: auto;
+  }
+
+.ocean {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.games {
+    position: absolute;
+    width: 200px;
+    color: white;
+    background-color: blue;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
