@@ -105,3 +105,8 @@ h2 {
     height: 70px;
     /* Probably a better way to adjust this, without pushing content up it goes under the footer */
 }
+
+.button {
+    background-color: #4aaaa5;
+    padding: 10px 20px;
+}
