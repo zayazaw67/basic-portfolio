@@ -1,0 +1,24 @@
+
+.imageoverlay {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    float: left;
+}
+
+.ocean {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.games {
+    position: absolute;
+    width: 200px;
+    z-index: 3;
+    color: black;
+    background-color: blue;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}

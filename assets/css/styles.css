@@ -20,6 +20,7 @@ body {
 #wrapper {
     max-width: 960px;
     margin: auto;
+    padding-top: 25px;
 }
 
 li {
@@ -49,14 +50,11 @@ ul {
     /* top: 0; makes navigation bar sticky when  is applied, but image appears above navigation bar*/
 }
 
-
-
 #heading {
     height: 50px;
     background-color: gray;
     width: 100%;
-    border-bottom: 8px solid teal;
-
+    border-bottom: 3px solid teal;
 }
 
 #name {
@@ -65,25 +63,43 @@ ul {
     z-index: 2;
     background-color: aqua;
     float: left;
-    height: 42px;
-}
-
-h1 {
+    max-height: 90px;
 
 }
 
-h1, h2 {
+.head1 {
+    color: pink;
+    padding-bottom: 20px;
+    width: 960px;
+    border-bottom: 3px;
+    border-color: black;
+    border-width: 100%;
+}
+
+h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: transparent;
+    border-bottom: 2px;
+    border-color: gray;
 }
 
 .footer {
     background-color: teal;
     padding-top: 30px;
-    margin-top: 8px;
+    margin-top: 3px;
     text-align: center;
-    border-top: 10px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     width: 100%;
-    position: fixed;
     bottom: 0;
     left: 0;
+    position: fixed;
+}
+
+#whiteback {
+    background-color: white;
+    padding: 15px;
+}
+
+.push {
+    height: 70px;
 }
