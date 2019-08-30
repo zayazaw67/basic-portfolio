@@ -14,7 +14,7 @@
 body {
     line-height: 150%;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #wrapper {
@@ -43,28 +43,27 @@ li a:hover {
 }
 ul {
     list-style-type: none; 
-    overflow: hidden; /* beige bar extends across after entering this code, not sure why*/
     position: sticky;
     position: relative;
     float: right;
-    /* top: 0; makes navigation bar sticky when  is applied, but image appears above navigation bar*/
+    padding: 15px 0px;
+    /* Unable to align this on the right with content below */
 }
 
 #heading {
     height: 50px;
-    background-color: gray;
+    background-color: #ffffff;
     width: 100%;
-    border-bottom: 3px solid teal;
+    border-bottom: 3px solid #cccccc;
 }
 
 #name {
     position: absolute;
     top: 0px;
     z-index: 2;
-    background-color: aqua;
+    background-color: #4aaaa5;
     float: left;
-    max-height: 90px;
-
+    height: 48px; /* Not sure how to properly make height of name extend to margins */
 }
 
 .head1 {
@@ -84,7 +83,7 @@ h2 {
 }
 
 .footer {
-    background-color: teal;
+    background-color: #666666;
     padding-top: 30px;
     margin-top: 3px;
     text-align: center;
@@ -96,10 +95,13 @@ h2 {
 }
 
 #whiteback {
-    background-color: white;
+    background-color: #ffffff;
     padding: 15px;
+    height: fit-content;
+    border-block-color: #dddddd
 }
 
 .push {
     height: 70px;
+    /* Probably a better way to adjust this, without pushing content up it goes under the footer */
 }

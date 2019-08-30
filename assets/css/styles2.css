@@ -2,9 +2,7 @@
 .imageoverlay {
     position: relative;
     text-align: center;
-    color: white;
-    z-index: 1;
-    float: left;
+    float: left; /* Removing float makes the images within the white background, but won't be aligned */
 }
 
 .ocean {
@@ -15,8 +13,7 @@
 .games {
     position: absolute;
     width: 200px;
-    z-index: 3;
-    color: black;
+    color: white;
     background-color: blue;
     top: 80%;
     left: 50%;
