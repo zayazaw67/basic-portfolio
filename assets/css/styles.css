@@ -7,6 +7,7 @@ body {
     line-height: 150%;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
 }
 
 #wrapper {
@@ -26,7 +27,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #111111;
+    background-color: #cacaca;
 }
 
 .navbar {
@@ -53,6 +54,9 @@ ul {  list-style-type: none;
     top: 0px;
     z-index: 2;
     background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 15px;
     height: 48px; /* Not sure how to properly make height of name extend to margins */
 }
 
@@ -91,6 +95,7 @@ h2 {
     bottom: 0;
     left: 0;
     position: fixed;
+    padding-bottom: 8px;
 }
 
 #whiteback {
