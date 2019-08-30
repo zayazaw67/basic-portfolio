@@ -3,14 +3,6 @@
     margin: 0;
 }
 
-#cat {
-    width: 30%;
-    height: 30%;
-    transform: rotate(180deg);
-    float: left;
-    margin-right: 10px;
-}
-
 body {
     line-height: 150%;
     font-size: 16px;
@@ -75,6 +67,15 @@ ul {
     border-width: 100%;
 }
 
+hr { 
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: gray
+}
+
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: transparent;
@@ -99,6 +100,15 @@ h2 {
     padding: 15px;
     height: fit-content;
     border-block-color: #dddddd
+}
+
+
+#cat {
+    width: 30%;
+    height: 30%;
+    transform: rotate(180deg);
+    float: left;
+    margin-right: 10px;
 }
 
 .push {
