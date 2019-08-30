@@ -4,8 +4,8 @@
 }
 
 #cat {
-    width: 20%;
-    height: 20%;
+    width: 30%;
+    height: 30%;
     transform: rotate(180deg);
     float: left;
     margin-right: 10px;
@@ -46,7 +46,7 @@ ul {
     position: sticky;
     position: relative;
     float: right;
-    padding: 15px 0px;
+    width: 100%;
     /* Unable to align this on the right with content below */
 }
 
