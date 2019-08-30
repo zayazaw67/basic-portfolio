@@ -11,6 +11,13 @@
     margin-right: 10px;
 }
 
+body {
+    background-color: pink;
+    line-height: 150%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
 #wrapper {
     max-width: 960px;
     margin: auto;
@@ -43,12 +50,7 @@ ul {
     /* top: 0; makes navigation bar sticky when  is applied, but image appears above navigation bar*/
 }
 
-body {
-    background-color: pink;
-    line-height: 150%;
-    font-size: 16px;
-    
-}
+
 
 #heading {
     height: 50px;
@@ -65,6 +67,10 @@ h1 {
     background-color: aqua;
     float: left;
     width: 20%;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .footer {
