@@ -57,12 +57,13 @@ ul {  list-style-type: none;
     color: white;
     text-align: center;
     padding: 15px;
-    height: 48px; /* Not sure how to properly make height of name extend to margins */
+    height: 48px; 
 }
 
 .head1 {
     color: #4aaaa5;
     padding-bottom: 20px;
+    padding-top: 10px;
     width: 960px;
     border-bottom: 3px;
     border-color: black;
@@ -96,11 +97,12 @@ h2 {
     left: 0;
     position: fixed;
     padding-bottom: 8px;
+    color: #dddddd;
 }
 
 #whiteback {
     background-color: #ffffff;
-    padding: 15px;
+    padding: 30px;
     height: fit-content;
     border-block-color: #dddddd;
 }
